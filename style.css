@@ -1,0 +1,58 @@
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+  
+.carousel-inner {
+    height: 600px; /* Adjust the height as needed */
+   
+}
+.carousel-item{
+    height: 100%; /* Ensures the images fill the carousel item height */
+    width: 100%; /* Ensures the images fill the carousel item width */
+    object-fit: cover;
+
+}
+
+  .center-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .caption {
+    font-weight: bold;
+    color: white; /* Sky blue color */
+  }
+
+  .background-after-carousel {
+    background-image: url('./rashi-raffi-pBx1VvMCL24-unsplash.jpg'); /* Add your background image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px; /* Adjust the height as needed */
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
